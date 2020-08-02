@@ -1,6 +1,6 @@
 # SaltBot Lite for Discord.js
 
-This is a collection of commands and action for my discord.js bot [SaltBot](https://bots.ondiscord.xyz/bots/539453930313351168). You could also just run this as it is.
+This is a lighter collection of commands for my discord.js bot [SaltBot](https://bots.ondiscord.xyz/bots/539453930313351168). You could also just run the bot as it is.
 
  All scripts are originally written in JavaScript but now converted to TypeScript. If you are not comfortable working with TypeScript or don't have it set up, you can use the compiled JavaScript files instead, although it is not recommended.
 
@@ -18,7 +18,7 @@ To load these commands I use the code in **[index.js](index.js)**. If you do not
 
 The **[config.json](Code/config.json)** file contains some information needed for the index file, but is not needed otherwise.
 
-
+To run the bot as it is, you need [Node.js](https://nodejs.org/en/).
 
 # Commands 
 
