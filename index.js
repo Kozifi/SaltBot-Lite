@@ -1,8 +1,8 @@
 var Discord = require("discord.js");
-var config = require("./config.json");
+var config = require("./Code/config.json");
 var bot = new Discord.Client();
 var fs = require("fs");
-fs.readdir("./commands/", (err, files) => {
+fs.readdir("./Code/JavaScript/", (err, files) => {
     if (err)
         console.log(err);
     let jsfile = files.filter(f => f.split(".").pop() === "js");
@@ -12,7 +12,7 @@ fs.readdir("./commands/", (err, files) => {
     }
     //Load commands
     jsfile.forEach((f, i) => {
-        let props = require(`./commands/${f}`);
+        let props = require(`./Code/JavaScript/${f}`);
         console.log(`File ${f} loaded!`);
         bot.commands.set(props.help.name, props);
     });
