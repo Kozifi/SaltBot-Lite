@@ -30,6 +30,7 @@
     "random-hex-color": "^1.0.1",
     "send-webhook": "^1.0.0",
     "steamapi": "^2.0.7",
+    "typescript": "^3.9.7",
     "util": "^0.12.0",
     "xmlhttprequest": "^1.8.0"
   },
