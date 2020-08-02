@@ -1,12 +1,12 @@
-# SaltBot for Discord.js
+# SaltBot Lite for Discord.js
 
-This is a collection of commands and action for my discord.js bot [SaltBot](https://bots.ondiscord.xyz/bots/539453930313351168). This collection assumes that you have some type of command handler.
+This is a collection of commands and action for my discord.js bot [SaltBot](https://bots.ondiscord.xyz/bots/539453930313351168). You could also just run this as it is.
 
- All scripts are originally written in JavaScript but now converted to TypeScript. If you are not comfortable working with TypeScript or don't have it set up, you can use the compiled JavaScript files instead. 
+ All scripts are originally written in JavaScript but now converted to TypeScript. If you are not comfortable working with TypeScript or don't have it set up, you can use the compiled JavaScript files instead, although it is not recommended.
 
-#### Why is SaltBot closed source?
+#### Why is the full SaltBot closed source?
 
-SaltBot contains a lot of personalized stuff written for my school, such as automatically updated lunch and schedule commands, namelists etc. Therefore the entire source code will not be public.
+SaltBot contains a lot of personalized and hard-coded stuff written for my school, such as automatically updated lunch and schedule commands, namelists etc. Therefore the original source code will not be public. 
 
 #### Invite SaltBot
 
