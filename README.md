@@ -8,6 +8,16 @@ This is a collection of commands and action for my discord.js bot [SaltBot](http
 
 SaltBot contains a lot of personalized stuff written for my school, such as automatically updated lunch and schedule commands, namelists etc. Therefore the entire source code will not be public.
 
+#### Invite SaltBot
+
+If you want to add SaltBot to your server without hosting yourself, you can invite him [here](https://bots.ondiscord.xyz/bots/539453930313351168). Yes I call SaltBot "him".
+
+# Setup
+
+To load these commands I use the code in **[index.js](index.js)**. If you do not have a similar command handler you could just copy the code from the commands, or implement mine with appropriate paths. Some commands will require local images, they are included in this repo.
+
+The **[config.json](Code/config.json)** file contains some information needed for the index file, but is not needed otherwise.
+
 
 
 # Commands 
@@ -50,11 +60,23 @@ SaltBot contains a lot of personalized stuff written for my school, such as auto
 
 ![opinion](https://i.imgur.com/JXCBpE5.png)
 
+**-iam <user\> <text\>** Pretend to be someone else. Because why be yourself when you have the option not to? This is done through webhooks.
+
+###### TypeScript: [iam.ts](Code/TypeScript/iam.ts), JavaScript: [iam.js](Code/JavaScript/iam.js)
+
+![opinion](https://cdn.discordapp.com/attachments/520168552687206400/738809452827770973/unknown.png)
+
 **-reverse** Sends a reverse card with a random color. 
 
 ###### TypeScript: [reverse.ts](Code/TypeScript/reverse.ts), JavaScript: [reverse.js](Code/JavaScript/reverse.js)
 
 ![reverse](https://i.imgur.com/5OuuKyz.png)
+
+**-dm <user\> <text\>** Sends an anonymous message to someone
+
+###### TypeScript: [dm.ts](Code/TypeScript/dm.ts), JavaScript: [dm.js](Code/JavaScript/dm.js)
+
+![dm](https://i.imgur.com/MM1BaIx.png)
 
 # Image editing 🖼
 
@@ -103,6 +125,10 @@ SaltBot contains a lot of personalized stuff written for my school, such as auto
 **-uptime** Shows time since the last restart 
 
 ###### TypeScript: [uptime.ts](Code/TypeScript/uptime.ts), JavaScript: [uptime.js](Code/JavaScript/uptime.js)
+
+**-ping** Pings the bot
+
+###### TypeScript: [ping.ts](Code/TypeScript/ping.ts), JavaScript: [ping.js](Code/JavaScript/ping.js)
 
 **-stats** Shows botstats 
 
