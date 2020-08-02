@@ -17,3 +17,5 @@ SaltBot contains a lot of personalized stuff written for my school, such as auto
 ###### TypeScript: [avatar.ts](Code/TypeScript/avatar.ts), JavaScript: [avatar.js](Code/JavaScript/avatar.js)
 
 Sends your own or a mentioned users avatar.
+
+![avatar](https://i.imgur.com/bcRhIM8.png)
