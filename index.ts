@@ -2,6 +2,8 @@ var Discord = require("discord.js");
 var config = require("./Code/config.json");
 var bot = new Discord.Client();
 var fs = require("fs");
+bot.disabledMembers = new Map();
+bot.commands = new Discord.Collection();
 
 fs.readdir("./Code/JavaScript/", (err, files) => {
     if (err) console.log(err);
@@ -40,4 +42,4 @@ bot.on("message", message => {
     if (commandfile) commandfile.run(bot, message, args);
 });
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(config.token);
