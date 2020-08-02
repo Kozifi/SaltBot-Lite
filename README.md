@@ -38,7 +38,7 @@ To run the bot as it is, you need [Node.js](https://nodejs.org/en/).
 
 ![spinnerduel](https://media.discordapp.net/attachments/501452852364050443/697572737954087002/unknown.png)
 
-**-spinner **Spin your own fidget spinner. Why does everything have to be a battle?
+**-spinner** Spin your own fidget spinner. Why does everything have to be a battle?
 
 ###### TypeScript: [spinner.ts](Code/TypeScript/spinner.ts), JavaScript: [spinner.js](Code/JavaScript/spinner.js)
 
