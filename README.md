@@ -14,11 +14,18 @@ If you want to add SaltBot to your server without hosting yourself, you can invi
 
 # Setup
 
-To load these commands I use the code in **[index.js](index.js)**. If you do not have a similar command handler you could just copy the code from the commands, or implement mine with appropriate paths. Some commands will require local images, they are included in this repo.
+You're free to do whatever you want with the code. You can either run the bot as it is and modify it, or you can copy code and use in your existing bot. To run it as it is, download and setup the repo with these commands:
 
-The **[config.json](Code/config.json)** file contains some information needed for the index file, but is not needed otherwise.
+```
+git clone https://github.com/LiterallyFabian/SaltBot-Lite
+cd SaltBot-Lite
+npm install
+node index.js
+```
 
-To run the bot as it is, you need [Node.js](https://nodejs.org/en/).
+The **[Code/config.json](Code/config.json)** file contains some information needed for the index.js file, but is not used by any of the commands.
+
+For the commands above you need to install [NodeJS](https://nodejs.org/en/) and [Git](https://git-scm.com/).
 
 # Commands 
 
