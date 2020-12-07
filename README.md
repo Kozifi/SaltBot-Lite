@@ -23,7 +23,7 @@ npm install
 node index.js
 ```
 
-The **[Code/config.json](Code/config.json)** file contains some information needed for the index.js file, but is not used by any of the commands.
+The **[commands/config.json](commands/config.json)** file contains some information needed for the index.js file, but is not used by any of the commands.
 
 For the commands above you need to install [NodeJS](https://nodejs.org/en/) and [Git](https://git-scm.com/).
 
@@ -35,19 +35,19 @@ For the commands above you need to install [NodeJS](https://nodejs.org/en/) and 
 
 **-fight <user\> [user]** Fight with someone, last one alive wins!
 
-###### TypeScript: [fight.ts](Code/TypeScript/fight.ts), JavaScript: [fight.js](Code/JavaScript/fight.js)
+###### TypeScript: [fight.ts](commands/TypeScript/fight.ts), JavaScript: [fight.js](commands/JavaScript/fight.js)
 
 ![fight command](https://media.discordapp.net/attachments/501452852364050443/697571646935924736/unknown.png?width=430&height=677)
 
 **-spinnerduel \<user>** Challenge someone to an epic fidget spinner battle in real-time!
 
-###### TypeScript: [spinnerduel.ts](Code/TypeScript/spinnerduel.ts), JavaScript: [spinnerduel.js](Code/JavaScript/spinnerduel.js)
+###### TypeScript: [spinnerduel.ts](commands/TypeScript/spinnerduel.ts), JavaScript: [spinnerduel.js](commands/JavaScript/spinnerduel.js)
 
 ![spinnerduel](https://media.discordapp.net/attachments/501452852364050443/697572737954087002/unknown.png)
 
 **-spinner** Spin your own fidget spinner. Why does everything have to be a battle?
 
-###### TypeScript: [spinner.ts](Code/TypeScript/spinner.ts), JavaScript: [spinner.js](Code/JavaScript/spinner.js)
+###### TypeScript: [spinner.ts](commands/TypeScript/spinner.ts), JavaScript: [spinner.js](commands/JavaScript/spinner.js)
 
 ![spinner](https://cdn.discordapp.com/attachments/501452852364050443/697574022103171105/unknown.png)
 
@@ -55,7 +55,7 @@ For the commands above you need to install [NodeJS](https://nodejs.org/en/) and 
 
 **-bottleflip** Try to hit an epic bottle flip. Yup.
 
-###### TypeScript: [bottleflip.ts](Code/TypeScript/bottleflip.ts), JavaScript: [bottleflip.js](Code/JavaScript/bottleflip.js)
+###### TypeScript: [bottleflip.ts](commands/TypeScript/bottleflip.ts), JavaScript: [bottleflip.js](commands/JavaScript/bottleflip.js)
 
 ![Bottleflip](https://cdn.discordapp.com/attachments/501452852364050443/697574954224582676/unknown.png)
 
@@ -63,25 +63,25 @@ For the commands above you need to install [NodeJS](https://nodejs.org/en/) and 
 
 **-opinion [question]** Ask the bot a yes/no question, maybe he got some good insights?
 
-###### TypeScript: [opinion.ts](Code/TypeScript/opinion.ts), JavaScript: [opinion.js](Code/JavaScript/opinion.js)
+###### TypeScript: [opinion.ts](commands/TypeScript/opinion.ts), JavaScript: [opinion.js](commands/JavaScript/opinion.js)
 
 ![opinion](https://i.imgur.com/JXCBpE5.png)
 
 **-iam <user\> <text\>** Pretend to be someone else. Because why be yourself when you have the option not to? This is done through webhooks.
 
-###### TypeScript: [iam.ts](Code/TypeScript/iam.ts), JavaScript: [iam.js](Code/JavaScript/iam.js)
+###### TypeScript: [iam.ts](commands/TypeScript/iam.ts), JavaScript: [iam.js](commands/JavaScript/iam.js)
 
 ![opinion](https://cdn.discordapp.com/attachments/520168552687206400/738809452827770973/unknown.png)
 
 **-reverse** Sends a reverse card with a random color. 
 
-###### TypeScript: [reverse.ts](Code/TypeScript/reverse.ts), JavaScript: [reverse.js](Code/JavaScript/reverse.js)
+###### TypeScript: [reverse.ts](commands/TypeScript/reverse.ts), JavaScript: [reverse.js](commands/JavaScript/reverse.js)
 
 ![reverse](https://i.imgur.com/5OuuKyz.png)
 
 **-dm <user\> <text\>** Sends an anonymous message to someone
 
-###### TypeScript: [dm.ts](Code/TypeScript/dm.ts), JavaScript: [dm.js](Code/JavaScript/dm.js)
+###### TypeScript: [dm.ts](commands/TypeScript/dm.ts), JavaScript: [dm.js](commands/JavaScript/dm.js)
 
 ![dm](https://i.imgur.com/MM1BaIx.png)
 
@@ -89,7 +89,7 @@ For the commands above you need to install [NodeJS](https://nodejs.org/en/) and 
 
 **-natsuki <goodimg\> <badimg\>** Natsuki approves your attempt
 
-###### TypeScript: [natsuki.ts](Code/TypeScript/natsuki.ts), JavaScript: [natsuki.js](Code/JavaScript/natsuki.js)
+###### TypeScript: [natsuki.ts](commands/TypeScript/natsuki.ts), JavaScript: [natsuki.js](commands/JavaScript/natsuki.js)
 
 <img src="https://media.discordapp.net/attachments/501452852364050443/697576695024320531/unknown.png" alt="sven" style="zoom: 67%;" />
 
@@ -97,25 +97,25 @@ For the commands above you need to install [NodeJS](https://nodejs.org/en/) and 
 
 **-dangofy <img\>** Make your own tasty dango!
 
-###### TypeScript: [dangofy.ts](Code/TypeScript/dangofy.ts), JavaScript: [dangofy.js](Code/JavaScript/dangofy.js)
+###### TypeScript: [dangofy.ts](commands/TypeScript/dangofy.ts), JavaScript: [dangofy.js](commands/JavaScript/dangofy.js)
 
 ![dango](https://media.discordapp.net/attachments/501452852364050443/697577110918660126/unknown.png?width=609&height=676)
 
 **-plottwist \<img>** Top 10 anime plottwists. The same command is possible with **death, betrayal & powerful**
 
-###### TypeScript: [plottwist.ts](Code/TypeScript/plottwist.ts), JavaScript: [plottwist.js](Code/JavaScript/plottwist.js)
+###### TypeScript: [plottwist.ts](commands/TypeScript/plottwist.ts), JavaScript: [plottwist.js](commands/JavaScript/plottwist.js)
 
-###### TypeScript: [death.ts](Code/TypeScript/death.ts), JavaScript: [death.js](Code/JavaScript/death.js)
+###### TypeScript: [death.ts](commands/TypeScript/death.ts), JavaScript: [death.js](commands/JavaScript/death.js)
 
-###### TypeScript: [betrayal.ts](Code/TypeScript/betrayal.ts), JavaScript: [betrayal.js](Code/JavaScript/betrayal.js)
+###### TypeScript: [betrayal.ts](commands/TypeScript/betrayal.ts), JavaScript: [betrayal.js](commands/JavaScript/betrayal.js)
 
-###### TypeScript: [powerful.ts](Code/TypeScript/powerful.ts), JavaScript: [powerful.js](Code/JavaScript/powerful.js)
+###### TypeScript: [powerful.ts](commands/TypeScript/powerful.ts), JavaScript: [powerful.js](commands/JavaScript/powerful.js)
 
 <img src="https://cdn.discordapp.com/attachments/501452852364050443/697577996260868297/unknown.png" alt="pt" style="zoom:50%;" />
 
 **-gone \<text>** 🦀 SOMETHING IS GONE 🦀
 
-###### TypeScript: [gone.ts](Code/TypeScript/gone.ts), JavaScript: [gone.js](Code/JavaScript/gone.js)
+###### TypeScript: [gone.ts](commands/TypeScript/gone.ts), JavaScript: [gone.js](commands/JavaScript/gone.js)
 
 ![reverse](https://i.imgur.com/ajoQi7w.png)
 
@@ -123,33 +123,33 @@ For the commands above you need to install [NodeJS](https://nodejs.org/en/) and 
 
 **-avatar [user]** Get someones avatar
 
-###### TypeScript: [avatar.ts](Code/TypeScript/avatar.ts), JavaScript: [avatar.js](Code/JavaScript/avatar.js)
+###### TypeScript: [avatar.ts](commands/TypeScript/avatar.ts), JavaScript: [avatar.js](commands/JavaScript/avatar.js)
 
 **-joindate [user]** Gets the date when you (or someone else) joined discord 
 
-###### TypeScript: [joindate.ts](Code/TypeScript/joindate.ts), JavaScript: [joindate.js](Code/JavaScript/joindate.js)
+###### TypeScript: [joindate.ts](commands/TypeScript/joindate.ts), JavaScript: [joindate.js](commands/JavaScript/joindate.js)
 
 **-uptime** Shows time since the last restart 
 
-###### TypeScript: [uptime.ts](Code/TypeScript/uptime.ts), JavaScript: [uptime.js](Code/JavaScript/uptime.js)
+###### TypeScript: [uptime.ts](commands/TypeScript/uptime.ts), JavaScript: [uptime.js](commands/JavaScript/uptime.js)
 
 **-ping** Pings the bot
 
-###### TypeScript: [ping.ts](Code/TypeScript/ping.ts), JavaScript: [ping.js](Code/JavaScript/ping.js)
+###### TypeScript: [ping.ts](commands/TypeScript/ping.ts), JavaScript: [ping.js](commands/JavaScript/ping.js)
 
 **-stats** Shows botstats 
 
-###### TypeScript: [stats.ts](Code/TypeScript/stats.ts), JavaScript: [stats.js](Code/JavaScript/stats.js)
+###### TypeScript: [stats.ts](commands/TypeScript/stats.ts), JavaScript: [stats.js](commands/JavaScript/stats.js)
 
 ![stats](https://i.imgur.com/fQBwUZD.png)
 
 **-coinflip** Flips a coin
 
-###### TypeScript: [coinflip.ts](Code/TypeScript/coinflip.ts), JavaScript: [coinflip.js](Code/JavaScript/coinflip.js)
+###### TypeScript: [coinflip.ts](commands/TypeScript/coinflip.ts), JavaScript: [coinflip.js](commands/JavaScript/coinflip.js)
 
 **-help** Shows... help
 
-###### TypeScript: [help.ts](Code/TypeScript/help.ts), JavaScript: [help.js](Code/JavaScript/help.js)
+###### TypeScript: [help.ts](commands/TypeScript/help.ts), JavaScript: [help.js](commands/JavaScript/help.js)
 
 ![help](https://i.imgur.com/G8Lp04t.png)
 
