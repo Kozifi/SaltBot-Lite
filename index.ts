@@ -1,5 +1,5 @@
 var Discord = require("discord.js");
-var config = require("./Code/config.json");
+var config = require("./commands/config.json");
 var bot = new Discord.Client();
 var fs = require("fs");
 bot.disabledMembers = new Map();

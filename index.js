@@ -1,12 +1,10 @@
 var Discord = require("discord.js");
-var config = require("./Code/config.json");
+var config = require("./commands/config.json");
 var bot = new Discord.Client();
 var fs = require("fs");
 bot.disabledMembers = new Map();
 bot.commands = new Discord.Collection();
-
-//Read commands
-fs.readdir("./Code/JavaScript/", (err, files) => {
+fs.readdir("./commands/JavaScript/", (err, files) => {
     if (err)
         console.log(err);
     let jsfile = files.filter(f => f.split(".").pop() === "js");
@@ -16,12 +14,11 @@ fs.readdir("./Code/JavaScript/", (err, files) => {
     }
     //Load commands
     jsfile.forEach((f, i) => {
-        let props = require(`./Code/JavaScript/${f}`);
+        let props = require(`./commands/JavaScript/${f}`);
         console.log(`File ${f} loaded!`);
         bot.commands.set(props.help.name, props);
     });
 });
-
 //Bot started
 bot.on("ready", () => {
     console.log(`Gamers, we did it. ${bot.user.username} is now online on ${bot.guilds.size} servers with ${bot.users.size} users! That's a Victory Royale!`);
@@ -29,6 +26,7 @@ bot.on("ready", () => {
     bot.user.setStatus('online');
     bot.user.setActivity(config.status);
 });
+
 //Detects messages
 bot.on("message", message => {
     if (message.author.bot)
