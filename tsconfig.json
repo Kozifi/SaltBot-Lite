@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-"outDir": "Code/JavaScript",
+"outDir": "commands/JavaScript",
     "target": "es6",
     "lib": ["es6"],
     "sourceMap": true,
